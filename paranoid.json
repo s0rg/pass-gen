@@ -1,0 +1,38 @@
+{
+    "roles": ["vov", "con"],
+   
+    "chars": [
+        {"role": "vov", "chars": ["a", "A", "4"]},
+        {"role": "con", "chars": ["b", "B", "8"]},
+        {"role": "con", "chars": ["c", "C", "("]},
+        {"role": "con", "chars": ["d", "D", "|)"]},
+        {"role": "vov", "chars": ["e", "E", "3"]},
+        {"role": "con", "chars": ["f", "F"]},
+        {"role": "con", "chars": ["g", "G", "6"]},
+        {"role": "con", "chars": ["h", "H", "|-|"]},
+        {"role": "vov", "chars": ["i", "I", "1"]},
+        {"role": "con", "chars": ["j", "J"]},
+        {"role": "con", "chars": ["k", "K", "|<"]},
+        {"role": "con", "chars": ["l", "L", "|_"]},
+        {"role": "con", "chars": ["m", "M", "|\\/|"]},
+        {"role": "con", "chars": ["n", "N", "|\\|"]},
+        {"role": "vov", "chars": ["o", "O", "0"]},
+        {"role": "con", "chars": ["p", "P"]},
+        {"role": "con", "chars": ["q", "Q"]},
+        {"role": "con", "chars": ["r", "R"]},
+        {"role": "con", "chars": ["s", "S", "5"]},
+        {"role": "con", "chars": ["t", "T", "7"]},
+        {"role": "vov", "chars": ["u", "U"]},
+        {"role": "con", "chars": ["v", "V", "\\/"]},
+        {"role": "con", "chars": ["w", "W", "\\/\\/"]},
+        {"role": "con", "chars": ["x", "X", "><"]},
+        {"role": "vov", "chars": ["y", "Y"]},
+        {"role": "con", "chars": ["z", "Z", "2"]}
+    ],
+    "rules": [
+        "{con}{vov}",
+        "{vov}{con}",
+        "{vov}{vov}"
+    ]
+}
+
