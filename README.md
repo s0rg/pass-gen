@@ -1,4 +1,4 @@
 pass-gen
 ========
 
-Prononceable password generator
+Pronounceable password generator
